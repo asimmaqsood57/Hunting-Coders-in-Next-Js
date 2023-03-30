@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
 import { Inter } from "next/font/google";
+import Link from "next/link";
 import styles from "@/styles/Home.module.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,15 +22,18 @@ export default function Home() {
       <main className={styles.main}>
         <nav className={styles.mainNav}>
           <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
+            <Link href="/">
+              <li>Home</li>
+            </Link>
+            <Link href="/about">
+              <li>About</li>
+            </Link>
+            <Link href="/blog">
+              <li>Blog</li>
+            </Link>
+            <Link href="/contact">
+              <li>Contact</li>
+            </Link>
           </ul>
         </nav>
 
