@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
 import { Inter } from "next/font/google";
-import Link from "next/link";
 import styles from "@/styles/Home.module.css";
 
 export default function Home() {
@@ -18,23 +17,6 @@ export default function Home() {
       <Script src="./hello.js"></Script>
 
       <main className={styles.main}>
-        <nav className={styles.mainNav}>
-          <ul>
-            <Link href="/">
-              <li>Home</li>
-            </Link>
-            <Link href="/about">
-              <li>About</li>
-            </Link>
-            <Link href="/blog">
-              <li>Blog</li>
-            </Link>
-            <Link href="/contact">
-              <li>Contact</li>
-            </Link>
-          </ul>
-        </nav>
-
         <div className={styles.center}>
           <h1>Hunting Coders</h1>
           <p className={styles.description}>
