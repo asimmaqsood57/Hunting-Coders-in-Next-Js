@@ -1,0 +1,11 @@
+.blogs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.blogItem {
+  border: 2px solid white;
+  padding: 30px;
+  margin: 16px;
+  border-radius: 62px 9px;
+}

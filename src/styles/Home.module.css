@@ -6,18 +6,17 @@
   padding: 1rem;
   min-height: 100vh;
 }
-
-.blogs {
+.container {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: var(--max-width);
+  padding: 0 1rem;
+  margin: 0 auto;
 }
-.blogItem {
-  border: 2px solid white;
-  padding: 30px;
-  margin: 16px;
-  border-radius: 62px 9px;
-}
+
 .description {
   display: inherit;
   justify-content: inherit;

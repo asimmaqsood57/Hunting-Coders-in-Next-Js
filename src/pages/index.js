@@ -23,38 +23,6 @@ export default function Home() {
             A blog for developers and people who want to learn about
           </p>
         </div>
-
-        <div className={styles.blogs}>
-          <h2>Popular Blogs</h2>
-          <div className={styles.blogItem}>
-            <h3>How to learn javascript?</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              quae, voluptatum, quod, voluptas quibusdam voluptates quidem
-            </p>
-          </div>
-          <div className={styles.blogItem}>
-            <h3>How to learn javascript?</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              quae, voluptatum, quod, voluptas quibusdam voluptates quidem
-            </p>
-          </div>
-          <div className={styles.blogItem}>
-            <h3>How to learn javascript?</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              quae, voluptatum, quod, voluptas quibusdam voluptates quidem
-            </p>
-          </div>
-          <div className={styles.blogItem}>
-            <h3>How to learn javascript?</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              quae, voluptatum, quod, voluptas quibusdam voluptates quidem
-            </p>
-          </div>
-        </div>
       </main>
     </>
   );
