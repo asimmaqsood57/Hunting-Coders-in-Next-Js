@@ -3,5 +3,6 @@
   "author": "John Doe",
   "tags": ["javascript", "programming"],
   "views": 31,
-  "description": "This is a post about JavaScript"
+  "description": "This is a post about JavaScript",
+  "slug": "learn-js"
 }

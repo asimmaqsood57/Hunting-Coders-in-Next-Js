@@ -2,5 +2,6 @@
   "title": "How to learn React js",
   "description": "This is a tutorial on how to learn React js",
   "author": "John Doe",
-  "tags": ["reactjs", "javascript"]
+  "tags": ["reactjs", "javascript"],
+  "slug": "learn-react"
 }
